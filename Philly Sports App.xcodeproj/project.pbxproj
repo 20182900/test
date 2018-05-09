@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1618E0BC20A3625C00825DA8 /* PhilliesTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1618E0BB20A3625C00825DA8 /* PhilliesTeamView.swift */; };
+		161D84B0209CCA19002B90EB /* SixersTeamStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D84AF209CCA19002B90EB /* SixersTeamStats.swift */; };
+		161D84B2209CD068002B90EB /* EaglesTeamStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D84B1209CD068002B90EB /* EaglesTeamStats.swift */; };
 		165CFDFB209B7B2600D4F038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFA209B7B2600D4F038 /* AppDelegate.swift */; };
 		165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFC209B7B2600D4F038 /* ViewController.swift */; };
 		165CFE00209B7B2700D4F038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CFDFE209B7B2700D4F038 /* Main.storyboard */; };
 		165CFE02209B7B2700D4F038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165CFE01209B7B2700D4F038 /* Assets.xcassets */; };
 		165CFE05209B7B2700D4F038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CFE03209B7B2700D4F038 /* LaunchScreen.storyboard */; };
+		165CFE0D209B7D6D00D4F038 /* SixersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFE0C209B7D6D00D4F038 /* SixersView.swift */; };
+		165CFE0F209B7E9700D4F038 /* EaglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFE0E209B7E9700D4F038 /* EaglesView.swift */; };
+		165CFE11209B806300D4F038 /* PhilliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFE10209B806300D4F038 /* PhilliesView.swift */; };
+		165CFE13209B817400D4F038 /* FlyersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFE12209B817400D4F038 /* FlyersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1618E0BB20A3625C00825DA8 /* PhilliesTeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhilliesTeamView.swift; sourceTree = "<group>"; };
+		161D84AF209CCA19002B90EB /* SixersTeamStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixersTeamStats.swift; sourceTree = "<group>"; };
+		161D84B1209CD068002B90EB /* EaglesTeamStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesTeamStats.swift; sourceTree = "<group>"; };
 		165CFDF7209B7B2600D4F038 /* Philly Sports App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philly Sports App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165CFDFA209B7B2600D4F038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165CFDFC209B7B2600D4F038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		165CFE01209B7B2700D4F038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165CFE04209B7B2700D4F038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165CFE06209B7B2700D4F038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165CFE0C209B7D6D00D4F038 /* SixersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixersView.swift; sourceTree = "<group>"; };
+		165CFE0E209B7E9700D4F038 /* EaglesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesView.swift; sourceTree = "<group>"; };
+		165CFE10209B806300D4F038 /* PhilliesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhilliesView.swift; sourceTree = "<group>"; };
+		165CFE12209B817400D4F038 /* FlyersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				165CFDFA209B7B2600D4F038 /* AppDelegate.swift */,
 				165CFDFC209B7B2600D4F038 /* ViewController.swift */,
 				165CFDFE209B7B2700D4F038 /* Main.storyboard */,
+				165CFE12209B817400D4F038 /* FlyersView.swift */,
+				165CFE10209B806300D4F038 /* PhilliesView.swift */,
+				1618E0BB20A3625C00825DA8 /* PhilliesTeamView.swift */,
+				165CFE0E209B7E9700D4F038 /* EaglesView.swift */,
+				161D84B1209CD068002B90EB /* EaglesTeamStats.swift */,
+				165CFE0C209B7D6D00D4F038 /* SixersView.swift */,
+				161D84AF209CCA19002B90EB /* SixersTeamStats.swift */,
 				165CFE01209B7B2700D4F038 /* Assets.xcassets */,
 				165CFE03209B7B2700D4F038 /* LaunchScreen.storyboard */,
 				165CFE06209B7B2700D4F038 /* Info.plist */,
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165CFE11209B806300D4F038 /* PhilliesView.swift in Sources */,
+				165CFE0D209B7D6D00D4F038 /* SixersView.swift in Sources */,
 				165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */,
+				165CFE13209B817400D4F038 /* FlyersView.swift in Sources */,
+				1618E0BC20A3625C00825DA8 /* PhilliesTeamView.swift in Sources */,
+				161D84B0209CCA19002B90EB /* SixersTeamStats.swift in Sources */,
 				165CFDFB209B7B2600D4F038 /* AppDelegate.swift in Sources */,
+				165CFE0F209B7E9700D4F038 /* EaglesView.swift in Sources */,
+				161D84B2209CD068002B90EB /* EaglesTeamStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +329,7 @@
 				165CFE0B209B7B2700D4F038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
