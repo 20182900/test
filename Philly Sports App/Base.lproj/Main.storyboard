@@ -532,6 +532,16 @@
                                     <segue destination="5P1-7k-SU4" kind="show" id="JwG-4D-TFg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvy-Np-uSQ">
+                                <rect key="frame" x="129" y="232" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Carson Wentz">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nuN-Jt-kHM" kind="show" id="nNI-b6-2E4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -593,6 +603,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN9-eg-zYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2108" y="124.58770614692655"/>
+        </scene>
+        <!--CarsonWentzView-->
+        <scene sceneID="thf-YD-fdC">
+            <objects>
+                <viewController title="CarsonWentzView" id="nuN-Jt-kHM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eDF-yq-jr5"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ob-7A-Tlb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TqW-TX-DaP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Carson_Wentz_passing_vs_Redskins_2017" translatesAutoresizingMaskIntoConstraints="NO" id="RL5-p7-JUF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ver-pB-TOl">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gzK-rS-lL0" kind="show" id="COa-dY-bti"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvM-Ml-FWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461.5999999999999" y="-528.48575712143929"/>
         </scene>
         <!--JakeArrietaView-->
         <scene sceneID="fXa-kp-iaL">
@@ -727,6 +771,7 @@
         <image name="79b44b3549a8720178db71c3a8c0843c" width="396" height="594"/>
         <image name="898e59ec9e6b0bd11cad41f2cfdc212d" width="1131" height="707"/>
         <image name="91Bw19UX1tL._SY450_" width="360" height="450"/>
+        <image name="Carson_Wentz_passing_vs_Redskins_2017" width="3464" height="3095"/>
         <image name="Embiid" width="940" height="540"/>
         <image name="RedickShoot1" width="2203" height="3600"/>
         <image name="USATSI_10597052_168384643_lowres.beb4fe3c.fill-735x490" width="735" height="490"/>
@@ -737,9 +782,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="rqX-no-aqw"/>
-        <segue reference="IFB-5g-nh6"/>
         <segue reference="IE0-4M-TeV"/>
         <segue reference="Kok-0D-FKj"/>
-        <segue reference="1C0-iM-bpM"/>
+        <segue reference="gyA-Sb-1x1"/>
+        <segue reference="COa-dY-bti"/>
     </inferredMetricsTieBreakers>
 </document>

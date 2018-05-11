@@ -17,6 +17,7 @@
 		163D182B20A606FE00AE67D9 /* DarioSaricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D182A20A606FE00AE67D9 /* DarioSaricView.swift */; };
 		163D182D20A6086700AE67D9 /* ClaudeGirouxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D182C20A6086700AE67D9 /* ClaudeGirouxView.swift */; };
 		163D182F20A609CE00AE67D9 /* JakeArrietaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D182E20A609CE00AE67D9 /* JakeArrietaView.swift */; };
+		163D183120A60ADE00AE67D9 /* CarsonWentzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */; };
 		165CFDFB209B7B2600D4F038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFA209B7B2600D4F038 /* AppDelegate.swift */; };
 		165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFC209B7B2600D4F038 /* ViewController.swift */; };
 		165CFE00209B7B2700D4F038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CFDFE209B7B2700D4F038 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		163D182A20A606FE00AE67D9 /* DarioSaricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarioSaricView.swift; sourceTree = "<group>"; };
 		163D182C20A6086700AE67D9 /* ClaudeGirouxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaudeGirouxView.swift; sourceTree = "<group>"; };
 		163D182E20A609CE00AE67D9 /* JakeArrietaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeArrietaView.swift; sourceTree = "<group>"; };
+		163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsonWentzView.swift; sourceTree = "<group>"; };
 		165CFDF7209B7B2600D4F038 /* Philly Sports App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philly Sports App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165CFDFA209B7B2600D4F038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165CFDFC209B7B2600D4F038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				163D182E20A609CE00AE67D9 /* JakeArrietaView.swift */,
 				165CFE0E209B7E9700D4F038 /* EaglesView.swift */,
 				161D84B1209CD068002B90EB /* EaglesTeamStats.swift */,
+				163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */,
 				165CFE0C209B7D6D00D4F038 /* SixersView.swift */,
 				161D84AF209CCA19002B90EB /* SixersTeamStats.swift */,
 				1618E0BF20A3689500825DA8 /* JoelEmbiidView.swift */,
@@ -182,6 +185,7 @@
 				165CFE0D209B7D6D00D4F038 /* SixersView.swift in Sources */,
 				165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */,
 				165CFE13209B817400D4F038 /* FlyersView.swift in Sources */,
+				163D183120A60ADE00AE67D9 /* CarsonWentzView.swift in Sources */,
 				163D182920A6059200AE67D9 /* JJRedickView.swift in Sources */,
 				1618E0C020A3689500825DA8 /* JoelEmbiidView.swift in Sources */,
 				1618E0BC20A3625C00825DA8 /* PhilliesTeamView.swift in Sources */,
