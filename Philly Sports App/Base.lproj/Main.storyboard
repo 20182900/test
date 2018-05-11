@@ -80,6 +80,146 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
+        <!--DarioSaricView-->
+        <scene sceneID="V9X-eU-p7O">
+            <objects>
+                <viewController title="DarioSaricView" id="5fy-Lq-tgH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="flh-kE-wGg"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Ac-DG-f3Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AHm-tj-byq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7279i1" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-Xu-Zsz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgQ-jH-d89">
+                                <rect key="frame" x="16" y="9" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xn3-8N-dUI" kind="show" id="wWd-At-uFh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ob9-Sm-kmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-2583.0584707646181"/>
+        </scene>
+        <!--JJRedickView-->
+        <scene sceneID="rFo-uW-fCo">
+            <objects>
+                <viewController title="JJRedickView" id="1qk-41-L7r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VNR-96-ndw"/>
+                        <viewControllerLayoutGuide type="bottom" id="ap2-lb-L5X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7vl-mn-xrt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RedickShoot1" translatesAutoresizingMaskIntoConstraints="NO" id="aUe-69-h9s">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsa-LU-Vsl">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xn3-8N-dUI" kind="show" id="IE0-4M-TeV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHE-86-iHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-1903.8980509745129"/>
+        </scene>
+        <!--BenSimmonsView-->
+        <scene sceneID="71O-bv-oRC">
+            <objects>
+                <viewController title="BenSimmonsView" id="TYr-PP-J5L" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xA8-zZ-Hp8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dio-TT-Cjb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Wn-za-8KQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1200px-Ben_Simmons" translatesAutoresizingMaskIntoConstraints="NO" id="ySk-F1-E5R">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAQ-vB-d22">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xn3-8N-dUI" kind="show" id="itc-Zb-OdD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRC-ca-G7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797.60000000000002" y="-1223.8380809595203"/>
+        </scene>
+        <!--JoelEmbiidView-->
+        <scene sceneID="zeq-yE-EQV">
+            <objects>
+                <viewController title="JoelEmbiidView" id="sRG-5a-vIs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nhp-ql-Qih"/>
+                        <viewControllerLayoutGuide type="bottom" id="neD-Z5-kLB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ePd-PQ-eHp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Embiid" translatesAutoresizingMaskIntoConstraints="NO" id="I2r-Yl-WAx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="USATSI_10597052_168384643_lowres.beb4fe3c.fill-735x490" translatesAutoresizingMaskIntoConstraints="NO" id="30a-lf-WtL">
+                                <rect key="frame" x="0.0" y="339" width="375" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Je-DO-wyR">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xn3-8N-dUI" kind="show" id="E3x-03-EpM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fs-Sn-0zZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797.60000000000002" y="-531.18440779610194"/>
+        </scene>
         <!--SixersView-->
         <scene sceneID="aBs-d2-17G">
             <objects>
@@ -93,7 +233,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="041118sixersmuralwestpoplar" translatesAutoresizingMaskIntoConstraints="NO" id="AaS-Kb-Lvy">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="-29" width="375" height="696"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYE-5r-TDd">
@@ -114,6 +254,46 @@
                                 </state>
                                 <connections>
                                     <segue destination="8HS-7x-ymU" kind="show" id="i8W-8r-Rjn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdD-u2-RRe">
+                                <rect key="frame" x="138" y="180" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Joel Embiid">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sRG-5a-vIs" kind="show" id="Ftv-oi-hQn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpw-WG-dDh">
+                                <rect key="frame" x="142" y="218" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ben Simmons">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TYr-PP-J5L" kind="show" id="ihK-bp-nUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="If0-dE-vtI">
+                                <rect key="frame" x="145" y="277" width="85" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="JJ Redick">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1qk-41-L7r" kind="show" id="pt3-5X-ywH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-jN-Jbx">
+                                <rect key="frame" x="146" y="325" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dario Saric">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5fy-Lq-tgH" kind="show" id="jvb-iM-Ft0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -372,6 +552,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phillies3" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-xT-a43">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRi-YK-rOd">
                                 <rect key="frame" x="16" y="20" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -382,10 +566,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="IFB-5g-nh6"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phillies3" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-xT-a43">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOJ-eo-Rdv">
                                 <rect key="frame" x="110" y="602" width="155" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -396,6 +576,16 @@
                                     <segue destination="Y2m-HB-iJr" kind="show" id="ptG-Jd-aBi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSS-J0-MaQ">
+                                <rect key="frame" x="130" y="113" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Jake Arrieta">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xaX-qW-Jhx" kind="show" id="jaQ-RJ-bwv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -403,6 +593,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN9-eg-zYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2108" y="124.58770614692655"/>
+        </scene>
+        <!--JakeArrietaView-->
+        <scene sceneID="fXa-kp-iaL">
+            <objects>
+                <viewController title="JakeArrietaView" id="xaX-qW-Jhx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6NV-Cf-r2H"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSV-h0-LUw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vZ8-Gx-HrN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="r347301_600x600_1-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wmn-5Z-ebi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDT-eg-mpl">
+                                <rect key="frame" x="16" y="13" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t8c-ZO-xLH" kind="show" id="eFL-LL-Oaa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E46-dQ-GaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2101.5999999999999" y="-536.58170914542734"/>
+        </scene>
+        <!--ClaudeGirouxView-->
+        <scene sceneID="HTI-39-pbm">
+            <objects>
+                <viewController title="ClaudeGirouxView" id="Kxk-0R-aBx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7mC-Ff-nhX"/>
+                        <viewControllerLayoutGuide type="bottom" id="aI1-d5-619"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VbH-fp-VvU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s-l300" translatesAutoresizingMaskIntoConstraints="NO" id="qmK-aw-JdI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjf-1R-V1s">
+                                <rect key="frame" x="16" y="11" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gPJ-Ia-Mos" kind="show" id="Kok-0D-FKj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9RY-AF-SzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2805.5999999999999" y="-536.58170914542734"/>
         </scene>
         <!--FlyersView-->
         <scene sceneID="3ec-eY-MTw">
@@ -440,6 +698,16 @@
                                     <segue destination="6Uk-iq-caN" kind="show" id="ERP-IO-rFS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tib-eY-Rvn">
+                                <rect key="frame" x="126" y="119" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Claude Giroux">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kxk-0R-aBx" kind="show" id="78g-rE-SAt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -451,20 +719,27 @@
     </scenes>
     <resources>
         <image name="041118sixersmuralwestpoplar" width="600" height="400"/>
+        <image name="1200px-Ben_Simmons" width="1200" height="1923"/>
         <image name="24a09ccb22938c1167c00579e6ece7bd--flyers-hockey-philadelphia-flyers" width="236" height="418"/>
         <image name="2f87d8ae2e27aecfb7808534507a0b3f--sports-graphics-philadelphia" width="236" height="297"/>
+        <image name="7279i1" width="325" height="465"/>
         <image name="76ers-hero-blue-back" width="1175" height="776"/>
         <image name="79b44b3549a8720178db71c3a8c0843c" width="396" height="594"/>
         <image name="898e59ec9e6b0bd11cad41f2cfdc212d" width="1131" height="707"/>
         <image name="91Bw19UX1tL._SY450_" width="360" height="450"/>
+        <image name="Embiid" width="940" height="540"/>
+        <image name="RedickShoot1" width="2203" height="3600"/>
+        <image name="USATSI_10597052_168384643_lowres.beb4fe3c.fill-735x490" width="735" height="490"/>
         <image name="Vince-Lombardi-Trophy-" width="620" height="384"/>
         <image name="phillies3" width="320" height="480"/>
+        <image name="r347301_600x600_1-1" width="600" height="600"/>
+        <image name="s-l300" width="240" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gyA-Sb-1x1"/>
-        <segue reference="1C0-iM-bpM"/>
-        <segue reference="io5-rS-q2b"/>
         <segue reference="rqX-no-aqw"/>
-        <segue reference="Fe2-IO-8cK"/>
+        <segue reference="IFB-5g-nh6"/>
+        <segue reference="IE0-4M-TeV"/>
+        <segue reference="Kok-0D-FKj"/>
+        <segue reference="1C0-iM-bpM"/>
     </inferredMetricsTieBreakers>
 </document>
