@@ -194,10 +194,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOH-nI-Szm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images copy" translatesAutoresizingMaskIntoConstraints="NO" id="QOH-nI-Szm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8T-xR-h7a">
+                                <rect key="frame" x="16" y="10" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gzK-rS-lL0" kind="show" id="kwU-RZ-JNp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -205,6 +215,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZC-5N-odQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1448.8" y="-1219.3403298350825"/>
+        </scene>
+        <!--NickWilliamsView-->
+        <scene sceneID="ebv-pM-bcz">
+            <objects>
+                <viewController title="NickWilliamsView" id="NGZ-tX-9hj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="koq-qh-YxX"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Fh-2q-cCK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uyg-Vd-6vh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyX-KD-YxN">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t8c-ZO-xLH" kind="show" id="zDX-58-kZA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image-1" translatesAutoresizingMaskIntoConstraints="NO" id="BKr-Qm-I4u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xEb-DG-PYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2108" y="-1892.2038980509747"/>
+        </scene>
+        <!--AaronNolaView-->
+        <scene sceneID="lZA-A2-HK5">
+            <objects>
+                <viewController title="AaronNolaView" id="7ln-lD-cs8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="un7-Pe-KAl"/>
+                        <viewControllerLayoutGuide type="bottom" id="GsD-de-7GB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fLp-m4-XBP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nola.Aaron-4" translatesAutoresizingMaskIntoConstraints="NO" id="O7w-Yh-LE5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlp-gj-Zdk">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t8c-ZO-xLH" kind="show" id="nXS-Zt-bpo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFm-gw-CYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2112.8000000000002" y="-1223.8380809595203"/>
         </scene>
         <!--JoelEmbiidView-->
         <scene sceneID="zeq-yE-EQV">
@@ -566,6 +644,16 @@
                                     <segue destination="nuN-Jt-kHM" kind="show" id="nNI-b6-2E4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKh-Mu-g8v">
+                                <rect key="frame" x="118" y="205" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Darren Sproles">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sUE-4Z-fpi" kind="show" id="1Iz-Um-78c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -618,6 +706,26 @@
                                 </state>
                                 <connections>
                                     <segue destination="xaX-qW-Jhx" kind="show" id="jaQ-RJ-bwv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaG-ev-aHH">
+                                <rect key="frame" x="142" y="158" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Aaron Nola">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7ln-lD-cs8" kind="show" id="fUf-FF-6CJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCy-BV-AgI">
+                                <rect key="frame" x="125" y="541" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Nick Wlliams">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NGZ-tX-9hj" kind="show" id="i8C-mU-ggu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -841,19 +949,22 @@
         <image name="91Bw19UX1tL._SY450_" width="360" height="450"/>
         <image name="Carson_Wentz_passing_vs_Redskins_2017" width="3464" height="3095"/>
         <image name="Embiid" width="940" height="540"/>
+        <image name="Nola.Aaron-4" width="2625" height="3943"/>
         <image name="RedickShoot1" width="2203" height="3600"/>
         <image name="USATSI_10597052_168384643_lowres.beb4fe3c.fill-735x490" width="735" height="490"/>
         <image name="Vince-Lombardi-Trophy-" width="620" height="384"/>
+        <image name="image-1" width="3000" height="2183"/>
         <image name="images" width="259" height="194"/>
+        <image name="images copy" width="183" height="275"/>
         <image name="phillies3" width="320" height="480"/>
         <image name="r347301_600x600_1-1" width="600" height="600"/>
         <image name="s-l300" width="240" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="abI-5C-AHW"/>
-        <segue reference="io5-rS-q2b"/>
-        <segue reference="byk-PT-Tph"/>
-        <segue reference="rqX-no-aqw"/>
         <segue reference="1C0-iM-bpM"/>
+        <segue reference="io5-rS-q2b"/>
+        <segue reference="abI-5C-AHW"/>
+        <segue reference="eFL-LL-Oaa"/>
+        <segue reference="IFB-5g-nh6"/>
     </inferredMetricsTieBreakers>
 </document>

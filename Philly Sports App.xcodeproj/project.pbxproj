@@ -20,6 +20,8 @@
 		163D183120A60ADE00AE67D9 /* CarsonWentzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */; };
 		1643E33720A9F8DE00A27BC1 /* ShayneGostisbehereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643E33620A9F8DE00A27BC1 /* ShayneGostisbehereView.swift */; };
 		1643E33920A9F9CE00A27BC1 /* DarrenSprolesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643E33820A9F9CE00A27BC1 /* DarrenSprolesView.swift */; };
+		1643E33B20A9FB7300A27BC1 /* AaronNolaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643E33A20A9FB7300A27BC1 /* AaronNolaView.swift */; };
+		1643E33D20A9FC6A00A27BC1 /* NickWilliamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643E33C20A9FC6A00A27BC1 /* NickWilliamsView.swift */; };
 		165CFDFB209B7B2600D4F038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFA209B7B2600D4F038 /* AppDelegate.swift */; };
 		165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CFDFC209B7B2600D4F038 /* ViewController.swift */; };
 		165CFE00209B7B2700D4F038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CFDFE209B7B2700D4F038 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsonWentzView.swift; sourceTree = "<group>"; };
 		1643E33620A9F8DE00A27BC1 /* ShayneGostisbehereView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShayneGostisbehereView.swift; sourceTree = "<group>"; };
 		1643E33820A9F9CE00A27BC1 /* DarrenSprolesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarrenSprolesView.swift; sourceTree = "<group>"; };
+		1643E33A20A9FB7300A27BC1 /* AaronNolaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AaronNolaView.swift; sourceTree = "<group>"; };
+		1643E33C20A9FC6A00A27BC1 /* NickWilliamsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NickWilliamsView.swift; sourceTree = "<group>"; };
 		165CFDF7209B7B2600D4F038 /* Philly Sports App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Philly Sports App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165CFDFA209B7B2600D4F038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165CFDFC209B7B2600D4F038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				165CFE10209B806300D4F038 /* PhilliesView.swift */,
 				1618E0BB20A3625C00825DA8 /* PhilliesTeamView.swift */,
 				163D182E20A609CE00AE67D9 /* JakeArrietaView.swift */,
+				1643E33A20A9FB7300A27BC1 /* AaronNolaView.swift */,
+				1643E33C20A9FC6A00A27BC1 /* NickWilliamsView.swift */,
 				165CFE0E209B7E9700D4F038 /* EaglesView.swift */,
 				161D84B1209CD068002B90EB /* EaglesTeamStats.swift */,
 				163D183020A60ADE00AE67D9 /* CarsonWentzView.swift */,
@@ -191,6 +197,7 @@
 				165CFE0D209B7D6D00D4F038 /* SixersView.swift in Sources */,
 				165CFDFD209B7B2600D4F038 /* ViewController.swift in Sources */,
 				165CFE13209B817400D4F038 /* FlyersView.swift in Sources */,
+				1643E33B20A9FB7300A27BC1 /* AaronNolaView.swift in Sources */,
 				163D183120A60ADE00AE67D9 /* CarsonWentzView.swift in Sources */,
 				163D182920A6059200AE67D9 /* JJRedickView.swift in Sources */,
 				1618E0C020A3689500825DA8 /* JoelEmbiidView.swift in Sources */,
@@ -199,6 +206,7 @@
 				161D84B0209CCA19002B90EB /* SixersTeamStats.swift in Sources */,
 				1618E0BE20A3654900825DA8 /* FlyersTeamView.swift in Sources */,
 				165CFDFB209B7B2600D4F038 /* AppDelegate.swift in Sources */,
+				1643E33D20A9FC6A00A27BC1 /* NickWilliamsView.swift in Sources */,
 				163D182720A603FA00AE67D9 /* BenSimmonsView.swift in Sources */,
 				163D182D20A6086700AE67D9 /* ClaudeGirouxView.swift in Sources */,
 				163D182B20A606FE00AE67D9 /* DarioSaricView.swift in Sources */,
