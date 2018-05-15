@@ -114,6 +114,40 @@
             </objects>
             <point key="canvasLocation" x="796" y="-2583.0584707646181"/>
         </scene>
+        <!--ChrisLongView-->
+        <scene sceneID="iLL-oN-QsW">
+            <objects>
+                <viewController title="ChrisLongView" id="y1u-DR-tJY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EIF-4v-20u"/>
+                        <viewControllerLayoutGuide type="bottom" id="U0s-YA-oNi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y9O-hL-3cx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20longWEB1-articleLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1gc-Np-EBu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfQ-54-YG9">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gzK-rS-lL0" kind="show" id="ASy-mb-poH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rNf-Rz-OcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453.5999999999999" y="-2576.7616191904049"/>
+        </scene>
         <!--JJRedickView-->
         <scene sceneID="rFo-uW-fCo">
             <objects>
@@ -250,6 +284,40 @@
             </objects>
             <point key="canvasLocation" x="2108" y="-2570.4647676161921"/>
         </scene>
+        <!--Sean CouturierView-->
+        <scene sceneID="5RI-dj-y9H">
+            <objects>
+                <viewController title="Sean CouturierView" id="beJ-Sg-coO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OFl-kG-0Af"/>
+                        <viewControllerLayoutGuide type="bottom" id="KzD-Em-d6N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="foF-bO-2js">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sean_Couturier_2016" translatesAutoresizingMaskIntoConstraints="NO" id="7kl-DN-QTu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aw-by-Lay">
+                                <rect key="frame" x="16" y="12" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gPJ-Ia-Mos" kind="show" id="1Tk-2v-JkQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pSX-hw-9wz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2797.5999999999999" y="-2570.4647676161921"/>
+        </scene>
         <!--AlshonJefferyView-->
         <scene sceneID="JoS-hj-atu">
             <objects>
@@ -317,6 +385,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEb-DG-PYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2108" y="-1892.2038980509747"/>
+        </scene>
+        <!--WayneSimmonsView-->
+        <scene sceneID="9d3-LN-8dy">
+            <objects>
+                <viewController title="WayneSimmonsView" id="cPJ-JS-tfi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JJs-xA-haQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="coJ-aG-S95"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HeT-Vu-ImU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wayne-Simmonds" translatesAutoresizingMaskIntoConstraints="NO" id="YCJ-tO-XND">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axw-Gy-6gk">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gPJ-Ia-Mos" kind="show" id="zHO-OR-B1t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6w-fa-k39" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2797.5999999999999" y="-1885.0074962518743"/>
         </scene>
         <!--AaronNolaView-->
         <scene sceneID="lZA-A2-HK5">
@@ -732,6 +834,16 @@
                                     <segue destination="3Qu-0d-DeJ" kind="show" id="Ixs-pk-Q3p"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnX-X6-91I">
+                                <rect key="frame" x="140" y="270" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chris Long">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y1u-DR-tJY" kind="show" id="4v7-0D-wzn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1016,6 +1128,26 @@
                                     <segue destination="GN2-ks-rDG" kind="show" id="tVk-yc-2vj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYo-Lj-Dyv">
+                                <rect key="frame" x="132" y="177" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Wayne Simmons">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cPJ-JS-tfi" kind="show" id="fBU-7c-GAu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfQ-HZ-HWO">
+                                <rect key="frame" x="132" y="215" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sean Couturier">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="beJ-Sg-coO" kind="show" id="Snp-vX-Pud"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1028,6 +1160,7 @@
     <resources>
         <image name="041118sixersmuralwestpoplar" width="600" height="400"/>
         <image name="1200px-Ben_Simmons" width="1200" height="1923"/>
+        <image name="20longWEB1-articleLarge" width="600" height="755"/>
         <image name="24a09ccb22938c1167c00579e6ece7bd--flyers-hockey-philadelphia-flyers" width="236" height="418"/>
         <image name="2f87d8ae2e27aecfb7808534507a0b3f--sports-graphics-philadelphia" width="236" height="297"/>
         <image name="7279i1" width="325" height="465"/>
@@ -1040,8 +1173,10 @@
         <image name="JeffAl00_V" width="225" height="300"/>
         <image name="Nola.Aaron-4" width="2625" height="3943"/>
         <image name="RedickShoot1" width="2203" height="3600"/>
+        <image name="Sean_Couturier_2016" width="480" height="600"/>
         <image name="USATSI_10597052_168384643_lowres.beb4fe3c.fill-735x490" width="735" height="490"/>
         <image name="Vince-Lombardi-Trophy-" width="620" height="384"/>
+        <image name="Wayne-Simmonds" width="1000" height="757"/>
         <image name="image-1" width="3000" height="2183"/>
         <image name="images" width="259" height="194"/>
         <image name="images copy" width="183" height="275"/>
@@ -1051,10 +1186,10 @@
         <image name="s-l300" width="240" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bE3-g5-AUX"/>
-        <segue reference="io5-rS-q2b"/>
-        <segue reference="abI-5C-AHW"/>
+        <segue reference="ASy-mb-poH"/>
+        <segue reference="1Tk-2v-JkQ"/>
         <segue reference="Rl0-w3-ogH"/>
         <segue reference="IFB-5g-nh6"/>
+        <segue reference="io5-rS-q2b"/>
     </inferredMetricsTieBreakers>
 </document>
